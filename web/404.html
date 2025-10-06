@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Page Not Found | My Static Site</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="./assets/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./styles/variables.css" />
+  <link rel="stylesheet" href="./styles/base.css" />
+  <link rel="stylesheet" href="./styles/components.css" />
+  <link rel="stylesheet" href="./styles/pages.css" />
+</head>
+<body>
+  <div data-include="components/header.html"></div>
+
+  <main class="container">
+    <section class="not-found">
+      <h1>404</h1>
+      <p>Sorry, we couldn't find that page.</p>
+      <p><a class="button" href="./">Go back home</a></p>
+    </section>
+  </main>
+
+  <div data-include="components/footer.html"></div>
+
+  <script src="./scripts/dom.js"></script>
+  <script src="./scripts/include.js" data-site-root="."></script>
+  <script src="./scripts/main.js"></script>
+  <noscript>This site works best with JavaScript enabled.</noscript>
+</body>
+</html>

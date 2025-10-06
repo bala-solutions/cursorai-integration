@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About | My Static Site</title>
+  <meta name="description" content="About this static site." />
+  <link rel="icon" href="../assets/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="../styles/variables.css" />
+  <link rel="stylesheet" href="../styles/base.css" />
+  <link rel="stylesheet" href="../styles/components.css" />
+  <link rel="stylesheet" href="../styles/pages.css" />
+</head>
+<body>
+  <div data-include="components/header.html"></div>
+
+  <main class="container">
+    <section>
+      <h1>About</h1>
+      <p>This is a simple static website scaffolded for maintainability.</p>
+      <ul>
+        <li>Semantic HTML</li>
+        <li>Modular CSS</li>
+        <li>Reusable components</li>
+      </ul>
+    </section>
+  </main>
+
+  <div data-include="components/footer.html"></div>
+
+  <script src="../scripts/dom.js"></script>
+  <script src="../scripts/include.js" data-site-root=".."></script>
+  <script src="../scripts/main.js"></script>
+  <noscript>This site works best with JavaScript enabled.</noscript>
+</body>
+</html>
