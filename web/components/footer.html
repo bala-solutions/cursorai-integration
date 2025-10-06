@@ -1,0 +1,11 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>
+      <span>&copy; <span id="year"></span> My Static Site.</span>
+      <span>Built with ❤️.</span>
+    </p>
+  </div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
